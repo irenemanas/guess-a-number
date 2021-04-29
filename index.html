@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Adivina el número</h1>
+    </header>
+    <main class="main">
+      <form>
+        <label for="userNumber">Introduce aquí tu número:</label>
+        <input type="number" class="inputNumber js-inputNumber" />
+        <input
+          type="button"
+          value="Prueba"
+          class="button js-button"
+          id="userNumber"
+        />
+          <p class="clue js-tip">
+            Pista: Escribe el número y dale a Prueba
+          </p>
+          <input
+            type="text"
+            class="attempt js-attempt"
+            value="Número de intentos: 0"
+          />
+        </section>
+      </form>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
