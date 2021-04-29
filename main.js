@@ -24,7 +24,7 @@ function handleClick(event) {
   } else if (numberValue > randomNumber) {
     renderTip("The number is too high");
   } else if (numberValue < randomNumber) {
-    renderTip("The number is too ");
+    renderTip("The number is too low");
   } else {
     //if (numberValue === randomNumber) {
     renderTip("Has ganado, campeona!!!");
