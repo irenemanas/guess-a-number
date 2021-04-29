@@ -18,13 +18,13 @@ function handleClick(event) {
   const numberValue = parseInt(userNumberValue);
 
   if (isNaN(numberValue)) {
-    renderTip("El número debe estar entre 1 y 100");
+    renderTip("The number must be between 1 and 100");
   } else if (numberValue < 1 || numberValue > 100) {
-    renderTip("El número debe estar entre 1 y 100");
+    renderTip("The number must be between 1 and 100");
   } else if (numberValue > randomNumber) {
-    renderTip("El número es demasiado alto");
+    renderTip("The number is too high");
   } else if (numberValue < randomNumber) {
-    renderTip("El número esdemasiado bajo");
+    renderTip("The number is too ");
   } else {
     //if (numberValue === randomNumber) {
     renderTip("Has ganado, campeona!!!");

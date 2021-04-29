@@ -3,30 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Number Guesser</title>
     <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
     <header>
-      <h1 class="title">Adivina el número</h1>
+      <h1 class="title">Guess a number between 1 and 100</h1>
     </header>
     <main class="main">
       <form>
-        <label for="userNumber">Introduce aquí tu número:</label>
+        <label for="userNumber">Type a number:</label>
         <input type="number" class="inputNumber js-inputNumber" />
         <input
           type="button"
-          value="Prueba"
+          value="TRY"
           class="button js-button"
           id="userNumber"
         />
           <p class="clue js-tip">
-            Pista: Escribe el número y dale a Prueba
+            CLUE: 
           </p>
           <input
             type="text"
             class="attempt js-attempt"
-            value="Número de intentos: 0"
+            value="Number of attemps: 0"
           />
         </section>
       </form>
